@@ -1,0 +1,963 @@
+[
+  {
+    "codigo": 13024,
+    "ciclo": 1,
+    "nombre": "Desarrollo personal",
+    "tipo": "EG",
+    "creditos": 3,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 0,
+    "isSelectable": false,
+    "prereqCodes": [],
+    "sucesores": []
+  },
+  {
+    "codigo": 13029,
+    "ciclo": 1,
+    "nombre": "Lectura critica y redaccion de textos academicos",
+    "tipo": "EG",
+    "creditos": 3,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 0,
+    "isSelectable": false,
+    "prereqCodes": [],
+    "sucesores": []
+  },
+  {
+    "codigo": 13027,
+    "ciclo": 1,
+    "nombre": "Fisica general",
+    "tipo": "EG",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 4,
+    "hrs_lab": 0,
+    "isSelectable": false,
+    "prereqCodes": [],
+    "sucesores": [
+      13633
+    ]
+  },
+  {
+    "codigo": 13021,
+    "ciclo": 1,
+    "nombre": "Algoritmos y programacion",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [],
+    "sucesores": [
+      13039
+    ]
+  },
+  {
+    "codigo": 13023,
+    "ciclo": 1,
+    "nombre": "Desarrollo del pensamiento logico matematico",
+    "tipo": "EG",
+    "creditos": 3,
+    "hrs_teoria": 1,
+    "hrs_practica": 4,
+    "hrs_lab": 0,
+    "isSelectable": false,
+    "prereqCodes": [],
+    "sucesores": []
+  },
+  {
+    "codigo": 13028,
+    "ciclo": 1,
+    "nombre": "Introduccion al analisis matematico",
+    "tipo": "EG",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 4,
+    "hrs_lab": 0,
+    "isSelectable": false,
+    "prereqCodes": [],
+    "sucesores": [
+      13034
+    ]
+  },
+  {
+    "codigo": 13031,
+    "ciclo": 1,
+    "nombre": "Taller de liderazgo y trabajo en equipo",
+    "tipo": "EG",
+    "creditos": 1,
+    "hrs_teoria": 0,
+    "hrs_practica": 2,
+    "hrs_lab": 0,
+    "isSelectable": false,
+    "prereqCodes": [],
+    "sucesores": []
+  },
+  {
+    "codigo": 13040,
+    "ciclo": 2,
+    "nombre": "Etica, convivencia humana y ciudadania",
+    "tipo": "EG",
+    "creditos": 3,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 0,
+    "isSelectable": true,
+    "prereqCodes": [],
+    "sucesores": [
+      14092
+    ]
+  },
+  {
+    "codigo": 13043,
+    "ciclo": 2,
+    "nombre": "Sociedad cultura y ecologia",
+    "tipo": "EG",
+    "creditos": 3,
+    "hrs_teoria": 1,
+    "hrs_practica": 4,
+    "hrs_lab": 0,
+    "isSelectable": true,
+    "prereqCodes": [],
+    "sucesores": []
+  },
+  {
+    "codigo": 13036,
+    "ciclo": 2,
+    "nombre": "Cultura investigativa y pensamiento critico",
+    "tipo": "EG",
+    "creditos": 3,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 0,
+    "isSelectable": true,
+    "prereqCodes": [],
+    "sucesores": []
+  },
+  {
+    "codigo": 13039,
+    "ciclo": 2,
+    "nombre": "Estructura de datos",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [
+      13021
+    ],
+    "sucesores": [
+      13631,
+      13635,
+      13636
+    ]
+  },
+  {
+    "codigo": 13038,
+    "ciclo": 2,
+    "nombre": "Estadistica general",
+    "tipo": "EG",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 4,
+    "hrs_lab": 0,
+    "isSelectable": true,
+    "prereqCodes": [],
+    "sucesores": []
+  },
+  {
+    "codigo": 13034,
+    "ciclo": 2,
+    "nombre": "Analisis matematico",
+    "tipo": "EG",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 4,
+    "hrs_lab": 0,
+    "isSelectable": true,
+    "prereqCodes": [
+      13028
+    ],
+    "sucesores": [
+      13629,
+      13634
+    ]
+  },
+  {
+    "codigo": 13046,
+    "ciclo": 2,
+    "nombre": "Taller de manejo de TIC",
+    "tipo": "EG",
+    "creditos": 1,
+    "hrs_teoria": 0,
+    "hrs_practica": 2,
+    "hrs_lab": 0,
+    "isSelectable": true,
+    "prereqCodes": [],
+    "sucesores": []
+  },
+  {
+    "codigo": 13629,
+    "ciclo": 3,
+    "nombre": "Geometria analitica",
+    "tipo": "EE",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 4,
+    "hrs_lab": 0,
+    "isSelectable": false,
+    "prereqCodes": [
+      13034
+    ],
+    "sucesores": [
+      13635
+    ]
+  },
+  {
+    "codigo": 13630,
+    "ciclo": 3,
+    "nombre": "Paradigmas de lenguajes de programacion",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [],
+    "sucesores": [
+      13642
+    ]
+  },
+  {
+    "codigo": 13631,
+    "ciclo": 3,
+    "nombre": "Estrategias algoritmicas",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      13039
+    ],
+    "sucesores": [
+      13637
+    ]
+  },
+  {
+    "codigo": 13632,
+    "ciclo": 3,
+    "nombre": "Matematica discreta",
+    "tipo": "EE",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 4,
+    "hrs_lab": 0,
+    "isSelectable": false,
+    "prereqCodes": [],
+    "sucesores": [
+      13637,
+      13638
+    ]
+  },
+  {
+    "codigo": 13633,
+    "ciclo": 3,
+    "nombre": "Fisica para ciencia de la computacion",
+    "tipo": "EE",
+    "creditos": 3,
+    "hrs_teoria": 2,
+    "hrs_practica": 0,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      13027
+    ],
+    "sucesores": [
+      13639
+    ]
+  },
+  {
+    "codigo": 13634,
+    "ciclo": 3,
+    "nombre": "Analisis numerico",
+    "tipo": "EE",
+    "creditos": 3,
+    "hrs_teoria": 2,
+    "hrs_practica": 0,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      13034
+    ],
+    "sucesores": []
+  },
+  {
+    "codigo": 13635,
+    "ciclo": 4,
+    "nombre": "Computacion grafica",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [
+      13629,
+      13039
+    ],
+    "sucesores": [
+      14068
+    ]
+  },
+  {
+    "codigo": 13636,
+    "ciclo": 4,
+    "nombre": "Organizacion de archivos",
+    "tipo": "ES",
+    "creditos": 3,
+    "hrs_teoria": 2,
+    "hrs_practica": 0,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [
+      13039
+    ],
+    "sucesores": [
+      13641
+    ]
+  },
+  {
+    "codigo": 13637,
+    "ciclo": 4,
+    "nombre": "Algoritmos y complejidad",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [
+      13631,
+      13632
+    ],
+    "sucesores": [
+      13643
+    ]
+  },
+  {
+    "codigo": 13638,
+    "ciclo": 4,
+    "nombre": "Lenguajes formales y automatas",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [
+      13632
+    ],
+    "sucesores": [
+      13644
+    ]
+  },
+  {
+    "codigo": 13639,
+    "ciclo": 4,
+    "nombre": "Electronica para computacion",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [
+      13633
+    ],
+    "sucesores": [
+      13645
+    ]
+  },
+  {
+    "codigo": 13640,
+    "ciclo": 4,
+    "nombre": "Innovacion y emprendimiento",
+    "tipo": "ES",
+    "creditos": 3,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 0,
+    "isSelectable": true,
+    "prereqCodes": [],
+    "sucesores": []
+  },
+  {
+    "codigo": 13641,
+    "ciclo": 5,
+    "nombre": "Base de datos I",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      13636
+    ],
+    "sucesores": [
+      14069
+    ]
+  },
+  {
+    "codigo": 13642,
+    "ciclo": 5,
+    "nombre": "Ingenieria de software I",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      13630
+    ],
+    "sucesores": [
+      14070
+    ]
+  },
+  {
+    "codigo": 13643,
+    "ciclo": 5,
+    "nombre": "Inteligencia artificial I",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      13637
+    ],
+    "sucesores": [
+      14071
+    ]
+  },
+  {
+    "codigo": 13644,
+    "ciclo": 5,
+    "nombre": "Compiladores",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      13638
+    ],
+    "sucesores": []
+  },
+  {
+    "codigo": 13645,
+    "ciclo": 5,
+    "nombre": "Tecnicas digitales para computacion",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      13639
+    ],
+    "sucesores": [
+      14072,
+      14073
+    ]
+  },
+  {
+    "codigo": 13646,
+    "ciclo": 5,
+    "nombre": "Metodologia de la investigacion cientifica",
+    "tipo": "ES",
+    "creditos": 2,
+    "hrs_teoria": 2,
+    "hrs_practica": 0,
+    "hrs_lab": 0,
+    "isSelectable": false,
+    "prereqCodes": [],
+    "sucesores": []
+  },
+  {
+    "codigo": 14068,
+    "ciclo": 6,
+    "nombre": "Computacion grafica avanzada",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [
+      13635
+    ],
+    "sucesores": [
+      14083
+    ]
+  },
+  {
+    "codigo": 14069,
+    "ciclo": 6,
+    "nombre": "Base de datos II",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [
+      13641
+    ],
+    "sucesores": [
+      14074,
+      14083,
+      14085
+    ]
+  },
+  {
+    "codigo": 14070,
+    "ciclo": 6,
+    "nombre": "Ingenieria de software II",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [
+      13642
+    ],
+    "sucesores": [
+      14075,
+      14079,
+      14083,
+      14084,
+      13400,
+      14087
+    ]
+  },
+  {
+    "codigo": 14071,
+    "ciclo": 6,
+    "nombre": "Inteligencia artificial II",
+    "tipo": "ES",
+    "creditos": 2,
+    "hrs_teoria": 0,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [
+      13643
+    ],
+    "sucesores": [
+      14076,
+      14080,
+      14083
+    ]
+  },
+  {
+    "codigo": 14072,
+    "ciclo": 6,
+    "nombre": "Comunicacion de datos",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [
+      13645
+    ],
+    "sucesores": [
+      14077,
+      14083
+    ]
+  },
+  {
+    "codigo": 14073,
+    "ciclo": 6,
+    "nombre": "Arquitectura y organizacion de computadoras",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [
+      13645
+    ],
+    "sucesores": [
+      14078,
+      14083
+    ]
+  },
+  {
+    "codigo": 14074,
+    "ciclo": 7,
+    "nombre": "Base de datos avanzada",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      14069
+    ],
+    "sucesores": [
+      14091
+    ]
+  },
+  {
+    "codigo": 14075,
+    "ciclo": 7,
+    "nombre": "Desarrollo de software",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      14070
+    ],
+    "sucesores": [
+      14094
+    ]
+  },
+  {
+    "codigo": 14076,
+    "ciclo": 7,
+    "nombre": "Percepcion y vision por computadora",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      14071
+    ],
+    "sucesores": []
+  },
+  {
+    "codigo": 14077,
+    "ciclo": 7,
+    "nombre": "Redes de computadoras I",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      14072
+    ],
+    "sucesores": [
+      14081
+    ]
+  },
+  {
+    "codigo": 14078,
+    "ciclo": 7,
+    "nombre": "Sistemas operativos I",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      14073
+    ],
+    "sucesores": [
+      14082
+    ]
+  },
+  {
+    "codigo": 14079,
+    "ciclo": 7,
+    "nombre": "Gestion de proyectos informaticos",
+    "tipo": "ES",
+    "creditos": 2,
+    "hrs_teoria": 0,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      14070
+    ],
+    "sucesores": [
+      14094
+    ]
+  },
+  {
+    "codigo": 14080,
+    "ciclo": 8,
+    "nombre": "Robotica",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [
+      14071
+    ],
+    "sucesores": []
+  },
+  {
+    "codigo": 14081,
+    "ciclo": 8,
+    "nombre": "Redes de computadoras II",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [
+      14077
+    ],
+    "sucesores": [
+      14088,
+      14094
+    ]
+  },
+  {
+    "codigo": 14082,
+    "ciclo": 8,
+    "nombre": "Sistemas operativos II",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [
+      14078
+    ],
+    "sucesores": []
+  },
+  {
+    "codigo": 14083,
+    "ciclo": 8,
+    "nombre": "Practicas pre-profesionales",
+    "tipo": "ES",
+    "creditos": 10,
+    "hrs_teoria": 1,
+    "hrs_practica": 9,
+    "hrs_lab": 9,
+    "isSelectable": true,
+    "prereqCodes": [
+      14068,
+      14069,
+      14070,
+      14071,
+      14072,
+      14073
+    ],
+    "sucesores": []
+  },
+  {
+    "codigo": 14084,
+    "ciclo": 9,
+    "nombre": "Interaccion humano-computador",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      14070
+    ],
+    "sucesores": [
+      14090
+    ]
+  },
+  {
+    "codigo": 14085,
+    "ciclo": 9,
+    "nombre": "Topicos en base de datos",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      14069
+    ],
+    "sucesores": []
+  },
+  {
+    "codigo": 13400,
+    "ciclo": 9,
+    "nombre": "Topicos en ingenieria de software",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      14070
+    ],
+    "sucesores": []
+  },
+  {
+    "codigo": 14087,
+    "ciclo": 9,
+    "nombre": "Ingenieria de software avanzada",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      14070
+    ],
+    "sucesores": [
+      14091
+    ]
+  },
+  {
+    "codigo": 14088,
+    "ciclo": 9,
+    "nombre": "Seguridad informatica",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": false,
+    "prereqCodes": [
+      14081
+    ],
+    "sucesores": []
+  },
+  {
+    "codigo": 14089,
+    "ciclo": 9,
+    "nombre": "Proyecto de tesis",
+    "tipo": "ES",
+    "creditos": 2,
+    "hrs_teoria": 1,
+    "hrs_practica": 2,
+    "hrs_lab": 0,
+    "isSelectable": false,
+    "prereqCodes": [],
+    "sucesores": [
+      14300
+    ]
+  },
+  {
+    "codigo": 14090,
+    "ciclo": 10,
+    "nombre": "Topicos en tecnologias inmersivas",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [
+      14084
+    ],
+    "sucesores": []
+  },
+  {
+    "codigo": 14091,
+    "ciclo": 10,
+    "nombre": "Sistemas de informacion",
+    "tipo": "ES",
+    "creditos": 3,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 0,
+    "isSelectable": true,
+    "prereqCodes": [
+      14087,
+      14074
+    ],
+    "sucesores": []
+  },
+  {
+    "codigo": 14092,
+    "ciclo": 10,
+    "nombre": "Etica para profesionales en informatica",
+    "tipo": "ES",
+    "creditos": 3,
+    "hrs_teoria": 2,
+    "hrs_practica": 2,
+    "hrs_lab": 0,
+    "isSelectable": true,
+    "prereqCodes": [
+      13040
+    ],
+    "sucesores": []
+  },
+  {
+    "codigo": 14093,
+    "ciclo": 10,
+    "nombre": "Proyecto de competencia",
+    "tipo": "ES",
+    "creditos": 2,
+    "hrs_teoria": 0,
+    "hrs_practica": 2,
+    "hrs_lab": 2,
+    "isSelectable": true,
+    "prereqCodes": [],
+    "sucesores": []
+  },
+  {
+    "codigo": 14094,
+    "ciclo": 10,
+    "nombre": "Trabajo de investigacion",
+    "tipo": "ES",
+    "creditos": 4,
+    "hrs_teoria": 2,
+    "hrs_practica": 4,
+    "hrs_lab": 0,
+    "isSelectable": true,
+    "prereqCodes": [
+      14081,
+      14079,
+      14075
+    ],
+    "sucesores": []
+  },
+  {
+    "codigo": 14300,
+    "ciclo": 10,
+    "nombre": "Tesis",
+    "tipo": "ES",
+    "creditos": 1,
+    "hrs_teoria": 0,
+    "hrs_practica": 2,
+    "hrs_lab": 0,
+    "isSelectable": true,
+    "prereqCodes": [
+      14089
+    ],
+    "sucesores": []
+  }
+]
