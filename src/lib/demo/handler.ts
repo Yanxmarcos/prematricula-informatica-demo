@@ -2,7 +2,6 @@ import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth/auth.config";
 import courses from "./cursos.json";
-import * as XLSX from "xlsx";
 import { jsPDF } from "jspdf";
 
 // This demo stores only synthetic changes in a browser cookie. There is no shared database.
@@ -155,10 +154,12 @@ export async function handleDemo(req: NextRequest) {
       rows.slice(0, 45).forEach((row, i) => pdf.text(Object.values(row).join(" | ").slice(0, 100), 14, 40 + i * 5));
       return new NextResponse(pdf.output("arraybuffer"), { headers: { "Content-Type": "application/pdf", "Content-Disposition": `attachment; filename="${report}.pdf"` } });
     }
-    const sheet = XLSX.utils.json_to_sheet(rows);
-    const book = XLSX.utils.book_new(); XLSX.utils.book_append_sheet(book, sheet, "Demo");
-    const buffer = XLSX.write(book, { type: "buffer", bookType: "xlsx" });
-    return new NextResponse(Uint8Array.from(buffer).buffer, { headers: { "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "Content-Disposition": `attachment; filename="${report}.xlsx"` } });
+    const cell = (value: string | number) => {
+      const safe = /^[=+\-@]/.test(String(value)) ? `'${value}` : String(value);
+      return `"${safe.replace(/"/g, '""')}"`;
+    };
+    const csv = "\uFEFF" + [Object.keys(rows[0]).map(cell).join(","), ...rows.map(row => Object.values(row).map(cell).join(","))].join("\r\n");
+    return new NextResponse(csv, { headers: { "Content-Type": "text/csv; charset=utf-8", "Content-Disposition": `attachment; filename="${report}.csv"` } });
   }
   return respond({ error: "Función no disponible en la demo." }, undefined, 404);
 }

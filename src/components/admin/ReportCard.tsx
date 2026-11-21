@@ -38,8 +38,8 @@ export function ReportCard({
                     className="flex items-center gap-2 px-4 py-2 bg-green-700 hover:bg-green-500/30 text-white rounded-lg transition-colors disabled:opacity-50"
                 >
                     <FileSpreadsheet className="w-4 h-4" />
-                    <span className="text-sm font-medium">Excel</span>
-                    <span className="text-xs text-green-300">.xlsx</span>
+                    <span className="text-sm font-medium">CSV (Excel)</span>
+                    <span className="text-xs text-green-300">.csv</span>
                 </button>
                 <button
                     onClick={onExportPDF}

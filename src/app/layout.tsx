@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 import "./global.css";
 import { Providers } from "./providers";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+
 export const metadata: Metadata = {
 	title: "Demo de Prematrícula | Portafolio",
 	description: "Demostración académica de prematrícula con datos ficticios; no es un sistema institucional activo.",
@@ -26,11 +28,11 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: 'Demo de Prematrícula',
 		description: 'Demostración académica con datos ficticios',
-		url: 'https://prematricula.info',
+		url: siteUrl,
 		siteName: 'Demo de Prematrícula',
 		images: [
 			{
-				url: 'https://prematricula.info/og-image.webp',
+				url: `${siteUrl}/og-image.webp`,
 				width: 1200,
 				height: 630,
 				alt: 'Prematricula Informática',
@@ -44,9 +46,9 @@ export const metadata: Metadata = {
 		card: 'summary_large_image',
 		title: 'Demo de Prematrícula',
 		description: 'Demostración académica con datos ficticios',
-		images: ['https://prematricula.info/og-image.webp'],
+		images: [`${siteUrl}/og-image.webp`],
 	},
-	metadataBase: new URL('https://prematricula.info'),
+	metadataBase: new URL(siteUrl),
 };
 
 export default function RootLayout({

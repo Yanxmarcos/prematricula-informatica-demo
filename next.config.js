@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  turbopack: { root: __dirname },
   images: {
     remotePatterns: [
       {
@@ -9,9 +9,6 @@ const nextConfig = {
         port: "",
       },
     ],
-  },
-  serverRuntimeConfig: {
-    // ...
   },
   env: {
     TZ: 'UTC',

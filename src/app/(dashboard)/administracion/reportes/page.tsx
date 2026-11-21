@@ -65,7 +65,7 @@ export default function ReportesPage() {
             }
 
             const blob = await response.blob();
-            const extension = tipo === "excel" ? "xlsx" : "pdf";
+            const extension = tipo === "excel" ? "csv" : "pdf";
             const url = window.URL.createObjectURL(blob);
             const link = document.createElement("a");
             link.href = url;

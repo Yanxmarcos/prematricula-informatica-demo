@@ -14,14 +14,14 @@ También puedes seleccionar el perfil desde la pantalla de acceso. Estas claves 
 ## Funciones
 
 - Estudiante: explorar el período y la malla curricular, seleccionar cursos, registrar una prematrícula de prueba, consultar el historial y editar el perfil ficticio.
-- Administración: ver estadísticas, oferta académica, prematrículas, usuarios ficticios, configuración de la demo y descargar reportes de ejemplo.
+- Administración: ver estadísticas, oferta académica, prematrículas, usuarios ficticios, configuración de la demo y descargar reportes de ejemplo en CSV o PDF.
 - «Restablecer demo» elimina las modificaciones guardadas en el navegador.
 
 La demo conserva la selección del visitante en una cookie; no utiliza MySQL ni comparte datos entre visitantes. Las cuentas, los usuarios y el período inicial son fijos. La creación de usuarios y períodos, el cambio de contraseña y la gestión real de sesiones están deshabilitados. Los reportes contienen datos sintéticos.
 
 ## Tecnologías
 
-Next.js 16.4.5, React 19, TypeScript, Tailwind CSS, NextAuth, Recharts, jsPDF y SheetJS. El sistema original utilizaba Prisma y MySQL; esta copia de portafolio no los necesita.
+Next.js 16.4.5, React 19, TypeScript, Tailwind CSS, NextAuth, Recharts y jsPDF. El sistema original utilizaba Prisma y MySQL; esta copia de portafolio no los necesita.
 
 ## Desarrollo local
 
@@ -32,7 +32,7 @@ Next.js 16.4.5, React 19, TypeScript, Tailwind CSS, NextAuth, Recharts, jsPDF y 
 
 ## Vercel
 
-Importa **este repositorio limpio**, configura `NEXTAUTH_SECRET` como variable de entorno y despliega. Si Vercel requiere una URL canónica para NextAuth, configura `NEXTAUTH_URL` con el dominio definitivo (`https://prematricula.info`). Verifica primero la URL temporal de Vercel y después añade `prematricula.info` y `www.prematricula.info` en Settings → Domains; aplica en Cloudflare los valores DNS que Vercel indique para el proyecto.
+Importa **este repositorio limpio** (la carpeta `.portfolio-public` es la raíz del proyecto, no el repositorio original). En Vercel configura `NEXTAUTH_SECRET` con un valor aleatorio largo y estable para todos los despliegues. Vercel puede proporcionar la URL automáticamente si está activada la exposición de variables del sistema; si usas un dominio propio, configura `NEXTAUTH_URL` y `NEXT_PUBLIC_SITE_URL` con la URL HTTPS definitiva. No uses `http://localhost:3000` en Vercel. Comprueba el inicio de sesión de ambos perfiles en la URL desplegada antes de compartirla.
 
 ## Autoría y atribución
 
